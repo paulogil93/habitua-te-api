@@ -26,10 +26,6 @@ It is great for it's simplicity as we only have to write down the models and SQL
 
 ## Flask
 
-<p align="center">
-	<img src="https://codingbirdsonline.com/wp-content/uploads/2019/12/coding-birds-online-how-to-configure-flask-in-python-in-windows.png" width=390 height=225/>
-</p>
-
 Flask is a lightweight [WSGI](https://wsgi.readthedocs.io/) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around [Werkzeug](https://www.palletsprojects.com/p/werkzeug) and [Jinja](https://www.palletsprojects.com/p/jinja) and has become one of the most popular Python web application frameworks.
 
 It also has some security on the endpoints. When a user registers, it is generated an API Key which is stored on the Database. It is verified everytime the user makes a call to the API.
