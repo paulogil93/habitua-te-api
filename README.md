@@ -14,7 +14,12 @@ This project is divided in:
 
 In order to respond to the different kind of requests performed within the app, it was better to make a REST API. It was built using SQLAlchemy to deal with the Database and Flask to deal with the calls.
 
-## SQLAlchemy  
+## SQLAlchemy
+
+<p align="center">
+	<img src="https://miro.medium.com/max/590/1*gJO7yKfLFOK2zfHaFDMdgA.jpeg" width=450 height=225/>
+	<img src="https://img.favpng.com/7/5/11/postgresql-logo-computer-software-database-png-favpng-VzwjvpxaDys6FnN0apYZJbGV7.jpg" width=210 height=225/>
+</p>
 
 SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.
 It is great for it's simplicity as we only have to write down the models and SQLAlchemy migrates all those table definitions into the Database, which in this case PostgreSQL was used.
