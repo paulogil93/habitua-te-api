@@ -1,0 +1,17 @@
+
+//Search for constraint names
+
+SELECT con.* FROM pg_catalog.pg_constraint con
+INNER JOIN pg_catalog.pg_class rel
+ON rel.oid = con.conrelid
+INNER JOIN pg_catalog.pg_namespace nsp
+ON nsp.oid = connamespace
+WHERE nsp.nspname = 'public'
+AND rel.relname = 'products';
+
+//Add constraint
+
+ALTER TABLE products   
+DROP CONSTRAINT products_category_id_fkey,   
+ADD CONSTRAINT products_category_id_fkey FOREIGN KEY (category_id)
+REFERENCES categories (id) ON DELETE CASCADE;
