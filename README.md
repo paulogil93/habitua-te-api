@@ -18,7 +18,7 @@ In order to respond to the different kind of requests performed within the app, 
 
 <p align="center">
 	<img src="https://miro.medium.com/max/590/1*gJO7yKfLFOK2zfHaFDMdgA.jpeg" width=450 height=225/>
-	<img src="https://img.favpng.com/7/5/11/postgresql-logo-computer-software-database-png-favpng-VzwjvpxaDys6FnN0apYZJbGV7.jpg" width=210 height=225/>
+	<img src="https://kyetoy.files.wordpress.com/2014/03/postgresql-logo.png" width=250 height=225/>
 </p>
 
 SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.
